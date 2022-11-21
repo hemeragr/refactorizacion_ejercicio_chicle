@@ -9,7 +9,7 @@
 
 .cart {
     padding: 12px 24px;
-    border-left: 1px solid #eee;
+    border-left: 1px solid rgb(113, 113, 113);
 }
 
 .cart-row {
@@ -17,29 +17,47 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px 24px;
+    color: rgb(113, 113, 113);
 }
 
 .cart-row__info {
     display: flex;
     align-items: center;
+    color: rgb(79, 176, 218);
+
+}
+
+.word-units {
+    margin-left: 15px;
 }
 
 .cart-row__info__units {
     margin-right: 3px;
+    color: rgb(74, 74, 74);
 }
 
 .cart-row strong {
     font-size: 1.2em;
+    color: rgb(74, 74, 74);
 }
 
 .cart-row img {
-    margin-right: 12px;
+    margin-right: 18px;
     max-width: 120px;
+}
+
+.explanatory-text {
+    color: rgb(79, 176, 218);
 }
 
 .delivery {
     padding: 12px;
     margin-bottom: 12px;
+}
+
+.zip-code-text b{
+    color: rgb(74, 74, 74);
+    margin-bottom: 25px;
 }
 
 .delivery label {
@@ -49,13 +67,27 @@
 
 .delivery input {
     margin-right: 12px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background-color: rgb(79, 176, 218, 20%);
+}
+
+.price-gums {
+    color: rgb(74, 74, 74);
 }
 
 .total {
     padding-top: 12px;
-    border-top: 1px solid #222;
+    border-top: 1px solid rgb(113, 113, 113);
 }
 
 .total strong {
     font-size: 1.5em;
+    color: rgb(74, 74, 74);
+}
+
+button {
+    font-size: 0.8em;
+    color: rgb(79, 176, 218);
+    background-color: rgba(255, 255, 255, 0.4);
 }

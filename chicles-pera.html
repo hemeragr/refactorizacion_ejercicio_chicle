@@ -1,16 +1,16 @@
 <head>
 	<script src="./chicles-pera.js"></script>
-	<style src="./chicles-pera.css"></style>
+	<link rel="stylesheet" href="./chicles-pera.css">
 </head>
 
 <body>
 	<div class="content">
 		<div class="delivery">
-			<p>
+			<p class="explanatory-text">
 				Introduce el código zip para calcular los gastos de envío
 			</p>
-			<label for="zip-code">
-				Código zip
+			<label class="zip-code-text" for="zip-code">
+				<b>Código zip</b>
 			</label>
 			<input id="zip-code" type="text" placeholder="555333" />
 			<button id="calculate-delivery">
@@ -20,13 +20,13 @@
 		<div class="cart">
 			<div class="cart-row">
 				<div class="cart-row__info">
-					<img src="./assets/chicle.jpg" alt="chicle de pera" />
+					<img src="./chicle.jpg" alt="chicle de pera" />
 					<strong class="cart-row__info__units">
 						x1000
 					</strong>
-					unidades
+					<p class="word-units">unidades</p>
 				</div>
-				<strong>
+				<strong class="price-gums">
 					5€
 				</strong>
 			</div>
