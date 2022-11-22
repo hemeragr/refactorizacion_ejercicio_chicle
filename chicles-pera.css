@@ -52,14 +52,17 @@
 
 .delivery {
     padding: 12px;
-    margin-bottom: 12px;
 }
 
-.zip-code-text b{
+
+.zip-code-text {
     color: rgb(74, 74, 74);
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
+.delivery p {
+    margin-top: 5px;
+}
 .delivery label {
     display: block;
     margin-bottom: 3px;
@@ -90,4 +93,9 @@ button {
     font-size: 0.8em;
     color: rgb(79, 176, 218);
     background-color: rgba(255, 255, 255, 0.4);
+   
+}
+
+button:hover {
+    color: rgb(72, 72, 72);
 }
